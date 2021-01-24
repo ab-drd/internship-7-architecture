@@ -6,11 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Abstractions\" />
-    <Folder Include="Actions\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Folders\" />
-    <Folder Include="Helpers\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +14,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\POS.Data\POS.Data.csproj" />
+    <ProjectReference Include="..\POS.Domain\POS.Domain.csproj" />
   </ItemGroup>
 
 </Project>

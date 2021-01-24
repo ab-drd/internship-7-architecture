@@ -7,10 +7,12 @@
 
   <ItemGroup>
     <Folder Include="Constants\" />
-    <Folder Include="Enums\" />
     <Folder Include="Factories\" />
     <Folder Include="Models\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\POS.Data\POS.Data.csproj" />
   </ItemGroup>
 
 </Project>
